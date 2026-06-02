@@ -1,0 +1,115 @@
+Microsoft Windows [versão 10.0.26200.8457]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\ALUNO>cd desktop
+
+C:\Users\ALUNO\Desktop>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 1A71-4C69
+
+ Pasta de C:\Users\ALUNO\Desktop
+
+01/06/2026  19:51    <DIR>          .
+29/05/2026  22:03    <DIR>          ..
+01/06/2026  11:08    <DIR>          Matheus
+28/05/2026  19:57             2.345 Portugol (2).por
+28/05/2026  07:46    <DIR>          Projetos aqui
+21/05/2026  12:28    <DIR>          Projetos Vs Code
+29/05/2026  08:48             1.203 Veja, estou aqui.md
+29/05/2026  07:47                 0 Veja, estou aqui.txt
+               3 arquivo(s)          3.548 bytes
+               5 pasta(s)   418.532.610.048 bytes disponíveis
+
+C:\Users\ALUNO\Desktop>mkdir projeto
+
+C:\Users\ALUNO\Desktop>cd projeto
+
+C:\Users\ALUNO\Desktop\projeto>mkdir áudios vídeos imagens documentos
+
+C:\Users\ALUNO\Desktop\projeto>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 1A71-4C69
+
+ Pasta de C:\Users\ALUNO\Desktop\projeto
+
+01/06/2026  19:51    <DIR>          .
+01/06/2026  19:51    <DIR>          ..
+01/06/2026  19:51    <DIR>          documentos
+01/06/2026  19:51    <DIR>          imagens
+01/06/2026  19:51    <DIR>          vídeos
+01/06/2026  19:51    <DIR>          áudios
+               0 arquivo(s)              0 bytes
+               6 pasta(s)   418.532.605.952 bytes disponíveis
+
+C:\Users\ALUNO\Desktop\projeto>type nul > musica.mp3
+
+C:\Users\ALUNO\Desktop\projeto>type nul > podcast.mp3
+
+C:\Users\ALUNO\Desktop\projeto>move musica.mp3 áudios
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>move podcast.mp3 áudios
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>type nul > apresentação.mp4
+
+C:\Users\ALUNO\Desktop\projeto>move apresentação.mp4 vídeos
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>type nul > foto.jpg
+
+C:\Users\ALUNO\Desktop\projeto>type nul > banner.png
+
+C:\Users\ALUNO\Desktop\projeto>move foto.jpg imagens
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>move banner.png imagens
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>type nul > anotações.txt
+
+C:\Users\ALUNO\Desktop\projeto>type nul > relatórios.pdf
+
+C:\Users\ALUNO\Desktop\projeto>move anotações.txt documentos
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>move relatórios.pdf documentos
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO\Desktop\projeto>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 1A71-4C69
+
+ Pasta de C:\Users\ALUNO\Desktop\projeto
+
+01/06/2026  19:51    <DIR>          .
+01/06/2026  19:51    <DIR>          ..
+01/06/2026  19:51    <DIR>          documentos
+01/06/2026  19:51    <DIR>          imagens
+01/06/2026  19:51    <DIR>          vídeos
+01/06/2026  19:51    <DIR>          áudios
+               0 arquivo(s)              0 bytes
+               6 pasta(s)   418.532.605.952 bytes disponíveis
+
+C:\Users\ALUNO\Desktop\projeto>tree /f
+Listagem de caminhos de pasta
+O número de série do volume é 000000E9 1A71:4C69
+C:.
+├───documentos
+│       anotações.txt
+│       relatórios.pdf
+│
+├───imagens
+│       banner.png
+│       foto.jpg
+│
+├───vídeos
+│       apresentação.mp4
+│
+└───áudios
+        musica.mp3
+        podcast.mp3
+
+
+C:\Users\ALUNO\Desktop\projeto>
+C:\Users\ALUNO\Desktop\projeto>

@@ -1,0 +1,364 @@
+# COMANDOS BÁSICOS DO PROMPT DE COMANDO (CMD)
+
+## O QUE É O CMD?
+
+**CMD (Prompt de Comando)** é o terminal do Windows utilizado para executar comandos e gerenciar arquivos e pastas por texto.
+
+Para abrir:
+
+* Clique na lupa do Windows.
+* Digite: **cmd**
+* Pressione **Enter**.
+
+---
+
+# COMANDOS DE NAVEGAÇÃO
+
+## cd
+
+Serve para entrar em uma pasta.
+
+Exemplo:
+
+cd Desktop
+
+Entra na pasta Desktop.
+
+---
+
+## cd ..
+
+Serve para voltar um nível no caminho atual.
+
+Exemplo:
+
+cd ..
+
+Volta para a pasta anterior.
+
+---
+
+# COMANDOS DE CRIAÇÃO
+
+## mkdir
+
+Serve para criar pastas.
+
+Sintaxe:
+
+mkdir nome_da_pasta
+
+Exemplo:
+
+mkdir projeto
+
+Cria uma pasta chamada projeto.
+
+OBSERVAÇÃO:
+O comando mkdir pode criar várias pastas na mesma linha.
+
+Exemplo:
+
+mkdir audios videos imagens documentos
+
+---
+
+## type nul >
+
+Serve para criar um arquivo vazio.
+
+Sintaxe:
+
+type nul > nome.extensao
+
+Exemplo:
+
+type nul > musica.mp3
+
+Cria um arquivo vazio chamado musica.mp3.
+
+OBSERVAÇÃO:
+O comando type nul > cria apenas um arquivo por vez.
+
+---
+
+# COMANDOS DE LISTAGEM
+
+## dir
+
+Lista todos os arquivos e pastas do local atual.
+
+Exemplo:
+
+dir
+
+Mostra tudo que existe dentro da pasta atual.
+
+---
+
+## tree /f
+
+Mostra a estrutura de pastas em formato de árvore e também lista os arquivos.
+
+Exemplo:
+
+tree /f
+
+Resultado visual semelhante a:
+
+Projeto
+├── audios
+│   ├── musica.mp3
+│   └── podcast.mp3
+├── videos
+│   └── apresentacao.mp4
+├── imagens
+│   ├── foto.jpg
+│   └── banner.png
+└── documentos
+├── anotacoes.txt
+└── relatorios.pdf
+
+---
+
+# COMANDO DE MOVIMENTAÇÃO
+
+## move
+
+Move um arquivo para uma pasta.
+
+Sintaxe:
+
+move arquivo.extensao pasta
+
+Exemplo:
+
+move musica.mp3 audios
+
+Move o arquivo musica.mp3 para a pasta audios.
+
+---
+
+# IMPORTANTE
+
+Ao copiar e colar vários comandos no Prompt:
+
+* Não deixe espaços extras.
+* Cada comando deve ficar em uma linha.
+* Espaços desnecessários podem gerar erro.
+
+---
+
+# VISUAL STUDIO CODE (VS CODE)
+
+## Criar uma nova janela
+
+Atalho:
+
+Ctrl + Shift + N
+
+---
+
+## Abrir pasta
+
+Atalho:
+
+Ctrl + O
+
+---
+
+## Abrir terminal
+
+Menu:
+
+Terminal → Novo Terminal
+
+ou
+
+Ctrl + `
+
+---
+
+# VERIFICAR A VERSÃO DO PYTHON
+
+Digite:
+
+python --version
+
+Exemplo de saída:
+
+Python 3.13.13
+
+---
+
+# INSTALAR BIBLIOTECAS
+
+Comando:
+
+pip install colorama faker pygame matplotlib requests pyautogui
+
+O comando pip install instala bibliotecas prontas feitas por outras pessoas.
+
+Essas bibliotecas ajudam a criar programas sem precisar desenvolver tudo do zero.
+
+---
+
+# O QUE É UMA BIBLIOTECA?
+
+Biblioteca é um conjunto de códigos prontos que executam funções específicas.
+
+Você reutiliza soluções já criadas por outros programadores.
+
+---
+
+# BIBLIOTECAS UTILIZADAS
+
+## Colorama
+
+Adiciona cores e estilos ao texto exibido no terminal.
+
+Usado para:
+
+* Mensagens coloridas
+* Avisos
+* Erros
+* Destaques visuais
+
+---
+
+## Faker
+
+Gera dados fictícios para testes.
+
+Exemplos:
+
+* Nomes
+* Telefones
+* Endereços
+* E-mails
+
+---
+
+## Pygame
+
+Biblioteca para desenvolvimento de jogos.
+
+Permite trabalhar com:
+
+* Gráficos
+* Sons
+* Animações
+* Teclado
+* Mouse
+
+---
+
+## Matplotlib
+
+Biblioteca para criação de gráficos.
+
+Usada para:
+
+* Gráficos de barras
+* Gráficos de linhas
+* Estatísticas
+* Visualização de dados
+
+---
+
+## Requests
+
+Biblioteca para comunicação com sites e APIs.
+
+Permite:
+
+* Fazer consultas na internet
+* Baixar informações
+* Enviar dados
+
+---
+
+## PyAutoGUI
+
+Biblioteca de automação.
+
+Permite controlar:
+
+* Mouse
+* Teclado
+* Captura de tela
+
+Utilizada para:
+
+* Bots
+* Automação de tarefas
+* Testes de sistemas
+
+---
+
+# EXERCÍCIO COMPLETO
+
+Digite exatamente nesta ordem:
+
+cd Desktop
+
+dir
+
+mkdir projeto
+
+cd projeto
+
+mkdir audios videos imagens documentos
+
+dir
+
+type nul > musica.mp3
+
+type nul > podcast.mp3
+
+move musica.mp3 audios
+
+move podcast.mp3 audios
+
+type nul > apresentacao.mp4
+
+move apresentacao.mp4 videos
+
+type nul > foto.jpg
+
+type nul > banner.png
+
+move foto.jpg imagens
+
+move banner.png imagens
+
+type nul > anotacoes.txt
+
+type nul > relatorios.pdf
+
+move anotacoes.txt documentos
+
+move relatorios.pdf documentos
+
+dir
+
+tree /f
+
+---
+
+# RESULTADO ESPERADO
+
+projeto
+├── audios
+│   ├── musica.mp3
+│   └── podcast.mp3
+├── videos
+│   └── apresentacao.mp4
+├── imagens
+│   ├── foto.jpg
+│   └── banner.png
+└── documentos
+├── anotacoes.txt
+└── relatorios.pdf
+
+Parabéns! Você criou pastas, arquivos, moveu arquivos para seus respectivos locais e visualizou toda a estrutura usando o Prompt de Comando.
